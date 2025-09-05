@@ -1,0 +1,7 @@
+﻿.select2-container .select2-search--inline {
+    width: 100%;
+}
+
+    .select2-container .select2-search--inline .select2-search__field {
+        width: 100% !important;
+    }

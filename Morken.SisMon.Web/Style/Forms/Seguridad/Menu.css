@@ -1,0 +1,7 @@
+﻿#treetable {
+    table-layout: fixed;
+}
+
+    #treetable tr td:nth-of-type(1) {
+        text-align: left;
+    }

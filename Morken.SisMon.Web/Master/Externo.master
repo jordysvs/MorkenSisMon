@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Externo.master.cs" Inherits="Master_Externo" %>
+<%@ Register TagPrefix="cc" Namespace="Kruma.Core.Util.Web.Combine.Controls" Assembly="Kruma.Core.Util.Web" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+    <title id="Title" runat="server"></title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+  <cc:CSSCombine ID="CSSCombiner" runat="server" CSSHandler="~/Ashx/Combine/CSSHandler.ashx">
+        <CSSReferences>
+            <cc:CSSReference Path="~/Style/Base/bootstrap/bootstrap.css" />
+            <cc:CSSReference Path="~/Style/Base/font.awesome/font.awesome.css" />
+            <cc:CSSReference Path="~/Style/Base/ionicons/ionicons.css" />
+            <cc:CSSReference Path="~/Style/Base/default.css" />
+            <cc:CSSReference Path="~/Style/Base/extension.css" />
+            <cc:CSSReference Path="~/Style/Base/skin/skin.css" />
+            <cc:CSSReference Path="~/Style/Forms/loading.css" />
+        </CSSReferences>
+    </cc:CSSCombine>
+    <script>var UrlPath = '<%= Page.ResolveClientUrl("~") %>';</script>
+    <cc:ScriptCombine ID="ScriptCombiner" runat="server" ScriptHandler="~/Ashx/Combine/ScriptHandler.ashx">
+        <Scripts>
+            <cc:ScriptReference Path="~/Script/Base/jquery/jquery.min.js" />
+            <cc:ScriptReference Path="~/Script/Base/blinktitle/blinktitle.js" />
+            <cc:ScriptReference Path="~/Script/Base/bootstrap/bootstrap.js" />
+            <cc:ScriptReference Path="~/Script/Base/bootstrap.app/bootstrap.app.js" />
+            <cc:ScriptReference Path="~/Script/Base/fastclick/fastclick.js" />
+            <cc:ScriptReference Path="~/Script/Base/jquery.slimscroll/jquery.slimscroll.min.js" />
+            <cc:ScriptReference Path="~/Script/Base/screenfull/screenfull.js" />
+            <cc:ScriptReference Path="~/Script/Forms/Default.js" />
+            <cc:ScriptReference Path="~/Script/Forms/Master.js" />
+        </Scripts>
+    </cc:ScriptCombine>
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="skin-red sidebar-collapse">
+    <form id="frmContent" runat="server">
+        <div id="divLoadingContainer">
+            <div id='divLoading' class="modal-backdrop fade in" style="display: none;">
+            </div>
+            <div id="imgLoading" tabindex="-1" style="display: none;" class="ui-front ui-dialog loading">
+                <div class="spinner">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <!-- Main Header -->
+            <header class="main-header">
+                <a href="#" class="logo">
+                    <span class="logo-mini"><b>
+                        <asp:Literal ID="litTituloProyectoAbreviatura" runat="server"></asp:Literal></b></span>
+                    <span class="logo-lg">
+                        <img style="height: 36px;" src="<%= Page.ResolveClientUrl("~/Images/Base/logoCliente.png")%>" /></span>
+                </a>
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#" id="fullscreen-btn" title="Pantalla Completa">
+                                    <i class="fa fa-arrows-alt"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div class="content-wrapper">
+                <section class="content-header">
+                    <h1>
+                        <asp:Label ID="lblTitulo" runat="server"></asp:Label>
+                        <small>
+                            <asp:Label ID="lblTituloDescripcion" runat="server"></asp:Label></small>
+                    </h1>
+                </section>
+                <section class="content">
+                    <asp:ContentPlaceHolder ID="cphBody" runat="server">
+                    </asp:ContentPlaceHolder>
+                </section>
+            </div>
+            <footer class="main-footer">
+                <!-- To the right -->
+                <div class="pull-right hidden-xs">
+                    <span class="reloj"></span>
+                </div>
+                <div>
+
+                    <img src="<%= Page.ResolveClientUrl("~/Images/Base/logo.png")%>" class="img-logo"></img>
+                    <!-- Default to the left -->
+                    Todos los derechos reservados.
+               
+                </div>
+            </footer>
+            <div class='control-sidebar-bg'></div>
+        </div>
+    </form>
+    <!--modal-->
+    <div class="modal fade full-color" id="md-template" tabindex="-1" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3></h3>
+                    <button type="button" class="close btn-cerrar" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <div class="i-circle success" style="display: none;"><i class="fa fa-check"></i></div>
+                        <div class="i-circle info" style="display: none;"><i class="fa fa-info"></i></div>
+                        <div class="i-circle warning" style="display: none;"><i class="fa fa-warning"></i></div>
+                        <div class="i-circle danger" style="display: none;"><i class="fa fa-times"></i></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-flat btn-mono3 btn-aceptar" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--confirm-->
+    <div class="modal fade full-color warning" id="md-confirm-template" tabindex="-1" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <div class="i-circle warning"><i class="fa fa-warning"></i></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning btn-mono3 btn-flat btn-aceptar" data-dismiss="modal">Aceptar</button>
+                    <button type="button" class="btn btn-warning btn-mono3 btn-flat btn-cancelar" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Componentes", "Componentes", "{D9124729-2FD6-4B24-9970-0565BEE8BCF4}"
+	ProjectSection(SolutionItems) = preProject
+		Componentes\itextsharp.dll = Componentes\itextsharp.dll
+		Componentes\itextsharp.xml = Componentes\itextsharp.xml
+		Componentes\itextsharp.xmlworker.dll = Componentes\itextsharp.xmlworker.dll
+		Componentes\Kruma.Core.Business.dll = Componentes\Kruma.Core.Business.dll
+		Componentes\Kruma.Core.Configuration.dll = Componentes\Kruma.Core.Configuration.dll
+		Componentes\Kruma.Core.Criptography.dll = Componentes\Kruma.Core.Criptography.dll
+		Componentes\Kruma.Core.Data.dll = Componentes\Kruma.Core.Data.dll
+		Componentes\Kruma.Core.Exception.dll = Componentes\Kruma.Core.Exception.dll
+		Componentes\Kruma.Core.FileServer.dll = Componentes\Kruma.Core.FileServer.dll
+		Componentes\Kruma.Core.Log.dll = Componentes\Kruma.Core.Log.dll
+		Componentes\Kruma.Core.Notification.dll = Componentes\Kruma.Core.Notification.dll
+		Componentes\Kruma.Core.Security.dll = Componentes\Kruma.Core.Security.dll
+		Componentes\Kruma.Core.Util.dll = Componentes\Kruma.Core.Util.dll
+		Componentes\Kruma.Core.Util.Web.dll = Componentes\Kruma.Core.Util.Web.dll
+		Componentes\NPOI.dll = Componentes\NPOI.dll
+		Componentes\NPOI.OOXML.dll = Componentes\NPOI.OOXML.dll
+		Componentes\NPOI.OpenXml4Net.dll = Componentes\NPOI.OpenXml4Net.dll
+		Componentes\NPOI.OpenXmlFormats.dll = Componentes\NPOI.OpenXmlFormats.dll
+		Componentes\NPOI.xml = Componentes\NPOI.xml
+		Componentes\SimpleImpersonation.dll = Componentes\SimpleImpersonation.dll
+		Componentes\Sybase.Data.AseClient.dll = Componentes\Sybase.Data.AseClient.dll
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Morken.SisMon.Web", "Morken.SisMon.Web\", "{EBEF3027-7B89-4566-A28E-3BD9910F076D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{527fb70a-7f31-4365-b66b-85bd1316db9e}|Morken.SisMon.Entidad.dll;{6a3b4bce-aae0-4f82-a6ea-5425dfe8fa11}|Morken.SisMon.Data.dll;{a8e23e07-0e46-438a-bda4-f957f9f8271a}|Morken.SisMon.Negocio.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54522"
+		Debug.AspNetCompiler.PhysicalPath = "Morken.SisMon.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54522\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54522"
+		Release.AspNetCompiler.PhysicalPath = "Morken.SisMon.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54522\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54522"
+		SlnRelativePath = "Morken.SisMon.Web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morken.SisMon.Entidad", "Morken.SisMon.Entidad\Morken.SisMon.Entidad.csproj", "{527FB70A-7F31-4365-B66B-85BD1316DB9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morken.SisMon.Data", "Morken.SisMon.Data\Morken.SisMon.Data.csproj", "{6A3B4BCE-AAE0-4F82-A6EA-5425DFE8FA11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morken.SisMon.Negocio", "Morken.SisMon.Negocio\Morken.SisMon.Negocio.csproj", "{A8E23E07-0E46-438A-BDA4-F957F9F8271A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBEF3027-7B89-4566-A28E-3BD9910F076D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEF3027-7B89-4566-A28E-3BD9910F076D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEF3027-7B89-4566-A28E-3BD9910F076D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEF3027-7B89-4566-A28E-3BD9910F076D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{527FB70A-7F31-4365-B66B-85BD1316DB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527FB70A-7F31-4365-B66B-85BD1316DB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527FB70A-7F31-4365-B66B-85BD1316DB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527FB70A-7F31-4365-B66B-85BD1316DB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3B4BCE-AAE0-4F82-A6EA-5425DFE8FA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3B4BCE-AAE0-4F82-A6EA-5425DFE8FA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3B4BCE-AAE0-4F82-A6EA-5425DFE8FA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3B4BCE-AAE0-4F82-A6EA-5425DFE8FA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E23E07-0E46-438A-BDA4-F957F9F8271A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E23E07-0E46-438A-BDA4-F957F9F8271A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E23E07-0E46-438A-BDA4-F957F9F8271A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E23E07-0E46-438A-BDA4-F957F9F8271A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

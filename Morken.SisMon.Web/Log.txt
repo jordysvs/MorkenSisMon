@@ -1,0 +1,561 @@
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:22:58
+Kruma_Core_Log_MessageFormatter_MSG003:
+Error al enviar correo.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:22:58
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:22:58
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-InnerException-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:22:58
+Kruma_Core_Log_MessageFormatter_MSG003:
+No se puede resolver el nombre remoto: 'mail.kruma.net'
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:25:50
+Kruma_Core_Log_MessageFormatter_MSG003:
+Error al enviar correo.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:25:50
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:25:50
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-InnerException-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:25:50
+Kruma_Core_Log_MessageFormatter_MSG003:
+No es posible conectar con el servidor remoto
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:29:41
+Kruma_Core_Log_MessageFormatter_MSG003:
+Se excedió el tiempo de espera de la operación.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:29:41
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:29:41
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:30:02
+Kruma_Core_Log_MessageFormatter_MSG003:
+Se excedió el tiempo de espera de la operación.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:30:02
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:30:02
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:31:22
+Kruma_Core_Log_MessageFormatter_MSG003:
+Error al enviar correo.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:31:22
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:31:22
+Kruma_Core_Log_MessageFormatter_MSG003:
+Error al enviar correo.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:31:22
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:31:22
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-InnerException-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:31:22
+Kruma_Core_Log_MessageFormatter_MSG003:
+No es posible conectar con el servidor remoto
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:31:22
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-InnerException-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:31:22
+Kruma_Core_Log_MessageFormatter_MSG003:
+No es posible conectar con el servidor remoto
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:33:36
+Kruma_Core_Log_MessageFormatter_MSG003:
+Error al enviar correo.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:33:36
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:33:37
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-InnerException-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:33:37
+Kruma_Core_Log_MessageFormatter_MSG003:
+No es posible conectar con el servidor remoto
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:34:02
+Kruma_Core_Log_MessageFormatter_MSG003:
+Error al enviar correo.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:34:02
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:34:02
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-InnerException-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	20/04/2018 10:34:02
+Kruma_Core_Log_MessageFormatter_MSG003:
+No es posible conectar con el servidor remoto
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:06
+Kruma_Core_Log_MessageFormatter_MSG003:
+Error al enviar correo.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:06
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:06
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-InnerException-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:06
+Kruma_Core_Log_MessageFormatter_MSG003:
+No es posible conectar con el servidor remoto
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:27
+Kruma_Core_Log_MessageFormatter_MSG003:
+Error al enviar correo.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:27
+Kruma_Core_Log_MessageFormatter_MSG003:
+Error al enviar correo.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:27
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-Source
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:27
+Kruma_Core_Log_MessageFormatter_MSG003:
+System
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:27
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-StackTrace
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:27
+Kruma_Core_Log_MessageFormatter_MSG003:
+   en System.Net.Mail.SmtpClient.Send(MailMessage message)
+   en Kruma.Core.Notification.NotificationManager.SendThread(MailEntry mm_pMailEntry)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-InnerException-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:27
+Kruma_Core_Log_MessageFormatter_MSG003:
+No es posible conectar con el servidor remoto
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Kruma_Core_Log_MessageFormatter_MSG005:	NotificationManager-InnerException-Message
+Kruma_Core_Log_MessageFormatter_MSG006:	23/04/2018 16:04:27
+Kruma_Core_Log_MessageFormatter_MSG003:
+No es posible conectar con el servidor remoto
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - Message
+Fecha:	24/04/2018 10:57:56
+Mensaje:
+La cadena de entrada no tiene el formato correcto.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - StackTrace
+Fecha:	24/04/2018 10:57:56
+Mensaje:
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en ReporteMonitoreoExcelHandler.ProcessRequest(HttpContext obj_pContext) en c:\Kruma\MorkenSisMon\Morken.SisMon\Morken.SisMon.Web\Ashx\Reportes\ReporteMonitoreoExcelHandler.ashx:línea 37
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - Message
+Fecha:	24/04/2018 10:59:01
+Mensaje:
+c:\Kruma\MorkenSisMon\Morken.SisMon\Morken.SisMon.Web\Ashx\Reportes\ReporteMonitoreoExcelHandler.ashx(65): error CS1502: La mejor coincidencia de método sobrecargado para 'Morken.SisMon.Negocio.Alerta.ListarReporteMonitoreo(int?, int?, int?, System.DateTime?, System.DateTime?, int?, int?)' tiene algunos argumentos no válidos
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - StackTrace
+Fecha:	24/04/2018 10:59:01
+Mensaje:
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   en System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   en System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   en System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - Message
+Fecha:	24/04/2018 11:07:00
+Mensaje:
+La cadena de entrada no tiene el formato correcto.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - StackTrace
+Fecha:	24/04/2018 11:07:00
+Mensaje:
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en ReporteMonitoreoExcelHandler.ProcessRequest(HttpContext obj_pContext) en c:\Kruma\MorkenSisMon\Morken.SisMon\Morken.SisMon.Web\Ashx\Reportes\ReporteMonitoreoExcelHandler.ashx:línea 36
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - Message
+Fecha:	24/04/2018 11:10:04
+Mensaje:
+La cadena de entrada no tiene el formato correcto.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - StackTrace
+Fecha:	24/04/2018 11:10:04
+Mensaje:
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en ReporteMonitoreoExcelHandler.ProcessRequest(HttpContext obj_pContext) en c:\Kruma\MorkenSisMon\Morken.SisMon\Morken.SisMon.Web\Ashx\Reportes\ReporteMonitoreoExcelHandler.ashx:línea 36
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - Message
+Fecha:	24/04/2018 11:11:03
+Mensaje:
+La cadena de entrada no tiene el formato correcto.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - StackTrace
+Fecha:	24/04/2018 11:11:03
+Mensaje:
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en ReporteMonitoreoExcelHandler.ProcessRequest(HttpContext obj_pContext) en c:\Kruma\MorkenSisMon\Morken.SisMon\Morken.SisMon.Web\Ashx\Reportes\ReporteMonitoreoExcelHandler.ashx:línea 38
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - Message
+Fecha:	24/04/2018 11:35:07
+Mensaje:
+La cadena de entrada no tiene el formato correcto.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - StackTrace
+Fecha:	24/04/2018 11:35:07
+Mensaje:
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en ReporteMonitoreoExcelHandler.ProcessRequest(HttpContext obj_pContext) en c:\Kruma\MorkenSisMon\Morken.SisMon\Morken.SisMon.Web\Ashx\Reportes\ReporteMonitoreoExcelHandler.ashx:línea 36
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - Message
+Fecha:	24/04/2018 11:39:33
+Mensaje:
+La cadena de entrada no tiene el formato correcto.
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Titulo:	Kruma - StackTrace
+Fecha:	24/04/2018 11:39:33
+Mensaje:
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en ReporteMonitoreoExcelHandler.ProcessRequest(HttpContext obj_pContext) en c:\Kruma\MorkenSisMon\Morken.SisMon\Morken.SisMon.Web\Ashx\Reportes\ReporteMonitoreoExcelHandler.ashx:línea 37
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+----------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    background: #fff;
+}
+.imgLogo {
+    z-index: 99999; 
+    position: absolute; 
+    top: 0; 
+    height: 50px;
+}
+

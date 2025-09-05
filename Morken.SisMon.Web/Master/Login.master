@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Login.master.cs" Inherits="Master_Login" %>
+
+<%@ Register TagPrefix="cc" Namespace="Kruma.Core.Util.Web.Combine.Controls" Assembly="Kruma.Core.Util.Web" %>
+
+<!DOCTYPE html>
+<html>
+<head id="Head" runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesión</title>
+     <cc:CssCombine ID="CSSCombiner" runat="server" CSSHandler="~/Ashx/Combine/CSSHandler.ashx">
+            <CSSReferences>
+                <cc:CssReference Path="~/Style/Forms/Login.css" />
+                <cc:CssReference Path="~/Style/Forms/Loading.css" />
+            </CSSReferences>
+        </cc:CssCombine>
+        <cc:ScriptCombine ID="ScriptCombiner" runat="server" ScriptHandler="~/Ashx/Combine/ScriptHandler.ashx">
+            <Scripts>
+                <cc:ScriptReference Path="~/Script/Base/jquery/jquery.min.js" />
+                <cc:ScriptReference Path="~/Script/Forms/default.js" />
+            </Scripts>
+        </cc:ScriptCombine>
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="divLoadingContainer">
+        <div id='divLoading' class="modal-backdrop fade in" style="display: none;">
+        </div>
+        <div id="imgLoading" tabindex="-1" style="display: none;" class="ui-front ui-dialog loading">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+    <div id="header">
+        <div class="page-full-width cf">
+            <div class="fl">
+                <img src="<%= Page.ResolveClientUrl("~/Images/Base/logoCliente2.png") %>" alt="Lider Card" style="height: 70px" />
+            </div>
+            <a href="#" id="company-branding" class="fr">
+                <img src="<%= Page.ResolveClientUrl("~/Images/Base/logoCliente.png") %>" alt="Lider Card" style="height: 70px" /></a>
+        </div>
+    </div>
+    <div id="content">
+        <form id="frmLogin" runat="server">
+            <asp:ContentPlaceHolder ID="cphBody" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+    <div id="footer">
+        <p>&copy; Copyright 2016 <a href="http://www.kruma.net/">Kruma SAC</a>. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
